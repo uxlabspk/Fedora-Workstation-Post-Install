@@ -1,6 +1,6 @@
-# Rocky/Fedora Linux Post Installation Configuration.
+# Fedora Workstation Post Installation Configuration.
 
-A set of productivity tools i usually install on my Rocky/Fedora Linux.
+A set of productivity tools i usually install on my Fedora Workstation.
 
 ## DNF Configuration
 
@@ -26,25 +26,14 @@ defaultyes=True
 sudo dnf update
 ```
 
-## NTFS File System Support
-
-```sh
-sudo dnf install epel-release
-sudo dnf install ntfs-3g
-```
-
 ## Media Codecs
 
-```sh
-sudo dnf install epel-release rpmfusion-free-release
-sudo crb enable
-sudo dnf install compat-ffmpeg4 ffmpeg gstreamer1-plugin-openh264 mozilla-openh264 gstreamer1-plugins-ugly
-```
+After installation enable 3rd party repositories. Then, update the system.
 
 ## Installing Java
 
 ```sh
-sudo dnf install java-11-openjdk java-11-openjdk-devel
+sudo dnf install java-21-openjdk java-21-openjdk-devel
 ```
 
 ## Installing MySql
