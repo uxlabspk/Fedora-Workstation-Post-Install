@@ -26,6 +26,13 @@ defaultyes=True
 sudo dnf update
 ```
 
+## Git Config
+
+```ini
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 ## Media Codecs
 
 After installation enable 3rd party repositories. Then, update the system.
