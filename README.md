@@ -26,13 +26,6 @@ defaultyes=True
 sudo dnf update
 ```
 
-## Git Config
-
-```ini
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-```
-
 ## Media Codecs
 
 After installation enable 3rd party repositories. Then, update the system.
@@ -41,16 +34,6 @@ After installation enable 3rd party repositories. Then, update the system.
 
 ```sh
 sudo dnf install java-21-openjdk java-21-openjdk-devel
-```
-
-## Installing MySql
-
-```sh
-sudo dnf install mysql-community-server
-sudo systemctl start mysqld
-sudo grep 'temporary password' /var/log/mysqld.log
-sudo mysql_secure_installation
-sudo grep 'temporary password' /var/log/mysqld.log
 ```
 
 ## Installing PHP
@@ -97,6 +80,10 @@ sudo yum install -y mongodb-org
 sudo systemctl start mongod
 ```
 
+## Installing MongoDB Compass
+
+Download and install mongodb compass [here.](https://www.mongodb.com/try/download/compass)
+
 ## Installing Nodejs
 
 As npm depends on nodejs so, i am installing npm, Node automatically installed.
@@ -105,21 +92,82 @@ As npm depends on nodejs so, i am installing npm, Node automatically installed.
 sudo dnf install npm
 ```
 
-## Installing Inkscape
+## Installing MySql
+
+```sh
+sudo dnf install mysql-community-server
+sudo systemctl start mysqld
+sudo grep 'temporary password' /var/log/mysqld.log
+sudo mysql_secure_installation
+sudo grep 'temporary password' /var/log/mysqld.log
+```
+
+## Git Config
+
+```ini
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+## Other Packages
+
+### Inkscape
 
 ```sh
 sudo dnf install inkscape
 ```
 
-## Optional Packages
+### ZSH Shell
 
 ```sh
 sudo dnf install zsh
+```
+
+### RPM Build Tools
+
+```sh
 sudo dnf install rpm-build
+```
+
+### Neofetch
+
+```sh
 sudo dnf install neofetch
+```
+
+### Neofetch
+
+```sh
 sudo dnf install neovim
+```
+
+### Oh my zsh
+
+```sh
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 ```
+
+### Radeontop
+
+```sh
+sudo dnf install radeontop
+```
+
+## Gnome Tweaks
+
+```sh
+sudo dnf install gnome-tweaks gnome-extensions-app
+```
+
+## Gnome Extensions
+
+- [user themes.](https://extensions.gnome.org/extension/19/user-themes/)
+- [Wiggle.](https://extensions.gnome.org/extension/6784/wiggle/)
+- [Rounded Window Corners Reborn.](https://extensions.gnome.org/extension/7048/rounded-window-corners-reborn/)
+- [Dash to Dock.](https://extensions.gnome.org/extension/307/dash-to-dock/)
+- [Blur my Shell.](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+
+- [Desktop Icons NG (DING).](https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/)
 
 ## Optional IDE's And Tools
 
