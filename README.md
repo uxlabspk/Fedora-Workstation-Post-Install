@@ -94,11 +94,21 @@ sudo dnf install npm
 
 ## Installing MySql
 
+Download the mysql repository [here.](https://dev.mysql.com/downloads/repo/yum/)
+
 ```sh
 sudo dnf install mysql-community-server
+```
+
+```sh
 sudo systemctl start mysqld
-sudo grep 'temporary password' /var/log/mysqld.log
+```
+
+```sh
 sudo mysql_secure_installation
+```
+
+```sh
 sudo grep 'temporary password' /var/log/mysqld.log
 ```
 
