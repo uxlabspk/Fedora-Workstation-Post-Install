@@ -2,6 +2,8 @@
 
 A set of productivity tools i usually install on my Fedora Workstation.
 
+<img src="./preview.png" />
+
 ## DNF Configuration
 
 ```sh
