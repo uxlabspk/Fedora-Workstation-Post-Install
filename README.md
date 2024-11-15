@@ -147,7 +147,7 @@ sudo dnf install rpm-build
 sudo dnf install neofetch
 ```
 
-### Neofetch
+### Neovim
 
 ```sh
 sudo dnf install neovim
