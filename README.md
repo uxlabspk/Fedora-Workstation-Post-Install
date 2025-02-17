@@ -51,11 +51,32 @@ sudo dnf install php-mysqlnd
 sudo dnf install httpd
 ```
 
+## Installing Sendmail
+
+```sh
+sudo dnf install sendmail sendmail-cf
+sudo systemctl start sendmail
+```
+
+After installation configure the `php.ini` file.
+
+Find the `[mail function]` section and make sure it contains:
+
+```sh
+sendmail_path = /usr/sbin/sendmail -t -i
+```
+
+Then,
+```sh
+sudo systemctl restart httpd
+```
+
 ## Configuring SELinux
 
 ```sh
 sudo setsebool -P httpd_can_network_connect=1
 sudo setsebool -P httpd_can_network_connect_db 1
+sudo setsebool -P httpd_can_sendmail on
 ```
 
 ## Installing MongoDB
