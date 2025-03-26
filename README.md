@@ -109,7 +109,7 @@ Download and install mongodb compass [here.](https://www.mongodb.com/try/downloa
 
 ## Installing Nodejs
 
-As npm depends on nodejs so, i am installing npm, Node automatically installed.
+As npm depends on nodejs so, i am installing npm, Node will be automatically installed.
 
 ```sh
 sudo dnf install npm
@@ -162,10 +162,10 @@ sudo dnf install zsh
 sudo dnf install rpm-build
 ```
 
-### Neofetch
+### Fastfetch
 
 ```sh
-sudo dnf install neofetch
+sudo dnf install fastfetch
 ```
 
 ### Neovim
@@ -199,14 +199,15 @@ sudo dnf install gnome-tweaks gnome-extensions-app
 - [Rounded Window Corners Reborn.](https://extensions.gnome.org/extension/7048/rounded-window-corners-reborn/)
 - [Dash to Dock.](https://extensions.gnome.org/extension/307/dash-to-dock/)
 - [Blur my Shell.](https://extensions.gnome.org/extension/3193/blur-my-shell/)
-
+- [Clipboard History](https://extensions.gnome.org/extension/4839/clipboard-history/)
+- [Maximize To Empty Workstation](https://extensions.gnome.org/extension/3100/maximize-to-empty-workspace/)
+- [Search Light](https://extensions.gnome.org/extension/5489/search-light/)
 - [Desktop Icons NG (DING).](https://extensions.gnome.org/extension/2087/desktop-icons-ng-ding/)
 
 ## Optional IDE's And Tools
 
-- [VSCode](https://code.visualstudio.com/download)
 - [Android Studio](https://developer.android.com/studio)
 - [Intellij Idea](https://www.jetbrains.com/idea/download)
-- [Php Storm](https://www.jetbrains.com/phpstorm/download)
 - [PostMan](https://www.postman.com/downloads)
 - [Mongodb Compass](https://www.mongodb.com/try/download/compass)
+- [JMeter](https://jmeter.apache.org/download_jmeter.cgi)
